@@ -12,7 +12,7 @@ To install official themes (from this repo), just use the theme management sub-c
 veripress theme install theme-name
 ```
 
-Here `theme-name` should be changed to the name of theme you want to install.
+Here `theme-name` should be changed to the name of the theme you want to install.
 
 ## Theme Table
 
@@ -47,4 +47,4 @@ veripress theme update the-theme
 
 ## More
 
-For more information on theme management, see VeriPress's documemtations and `veripress theme --help`.
+For more information on theme management, see VeriPress's documemtations and `veripress theme --help` (All sub-commands' help messages can be accessed through `--help`).
