@@ -47,4 +47,4 @@ veripress theme update the-theme
 
 ## More
 
-For more information on theme management, see VeriPress's documemtations and `veripress theme --help` (All sub-commands' help messages can be accessed through `--help`).
+For more information on theme management, see VeriPress's documemtation and `veripress theme --help` (All sub-commands' help messages can be accessed through `--help`).
