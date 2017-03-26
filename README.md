@@ -18,10 +18,13 @@ Here `theme-name` should be changed to the name of the theme you want to install
 
 | Theme | Preview | Notes |
 | ----- | ------- | ----- |
-| [default] | [Preview][default-preview] | Clean and modern.
+| [default] | [Preview][default-preview] | Clean and modern. |
+| [clean-doc] | [Preview][clean-doc-preview] | Default theme designed for docs. |
 
 [default]: https://github.com/veripress/themes/tree/default
 [default-preview]: https://veripress.github.io/demo/
+[clean-doc]: https://github.com/veripress/themes/tree/clean-doc
+[clean-doc-preview]: https://veripress.github.io/docs/
 
 ## Third-party Themes?
 
@@ -47,4 +50,4 @@ veripress theme update the-theme
 
 ## More
 
-For more information on theme management, see VeriPress's documemtation and `veripress theme --help` (All sub-commands' help messages can be accessed through `--help`).
+For more information on theme management, see VeriPress's [documemtation](https://veripress.github.io/docs/) and `veripress theme --help` (All sub-commands' help messages can be accessed through `--help`).
