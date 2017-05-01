@@ -12,7 +12,7 @@ To install official themes (from this repo), just use the theme management sub-c
 veripress theme install theme-name
 ```
 
-Here `theme-name` should be changed to the name of the theme you want to install.
+Here `theme-name` should be the name of the theme you want to install.
 
 ## Theme Table
 
@@ -28,13 +28,13 @@ Here `theme-name` should be changed to the name of the theme you want to install
 
 ## Third-party Themes?
 
-VeriPress's theme management command also allows you to install third-party themes on GitHub. For example you want to install a theme in the GitHub repo `someone/the-theme`, you can just run the following command:
+VeriPress's theme management sub-command also allows you to install third-party themes on GitHub. For example if you want to install a theme in the GitHub repo `someone/the-theme`, you can just run the following command:
 
 ```sh
 veripress theme install someone/the-theme
 ```
 
-By default the repo's name will be used as the theme name in your local, which is `the-theme` in this example. If you want a custom name, run the following:
+By default the repo's name will be used as the theme name in your local, which is `the-theme` in this case. If you want a custom name, run the following:
 
 ```sh
 veripress theme install someone/the-theme --name name-you-want
@@ -50,4 +50,4 @@ veripress theme update the-theme
 
 ## More
 
-For more information on theme management, see VeriPress's [documemtation](https://veripress.github.io/docs/) and `veripress theme --help` (All sub-commands' help messages can be accessed through `--help`).
+For more information on theme management, see VeriPress's [documemtation](https://veripress.github.io/docs/) and `veripress theme --help` (All sub-commands' help messages can be accessed through `--help` flag).
