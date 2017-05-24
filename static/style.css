@@ -72,6 +72,11 @@ a, a:hover, a:focus, table a:not(.btn), .table a:not(.btn) {
     margin-bottom: 26px;
 }
 
+.highlight pre {
+    -ms-word-wrap: normal;
+    word-wrap: normal;
+}
+
 .markdown-body pre.txt {
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
@@ -82,7 +87,31 @@ a, a:hover, a:focus, table a:not(.btn), .table a:not(.btn) {
     padding: 0;
 }
 
-.highlight pre {
-    -ms-word-wrap: normal;
-    word-wrap: normal;
+.markdown-body table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.markdown-body table th {
+    font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+    padding: 6px 13px;
+    border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+    background-color: #f8f8f8;
 }
