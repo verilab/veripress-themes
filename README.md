@@ -18,13 +18,16 @@ Here `theme-name` should be the name of the theme you want to install.
 
 | Theme | Preview | Notes |
 | ----- | ------- | ----- |
-| [default] | [Preview][default-preview] | Clean and modern. |
+| [default] | [Preview][default-preview] | Default theme designed for blogs. |
 | [clean-doc] | [Preview][clean-doc-preview] | Default theme designed for docs. |
+| [fenki] | [Preview][fenki-preview] | Default theme designed for wikis. |
 
 [default]: https://github.com/veripress/themes/tree/default
 [default-preview]: https://veripress.github.io/demo/
 [clean-doc]: https://github.com/veripress/themes/tree/clean-doc
 [clean-doc-preview]: https://veripress.github.io/docs/
+[fenki]: https://github.com/veripress/themes/tree/fenki
+[fenki-preview]: http://fenkipedia.cn/wiki/
 
 ## Third-party Themes?
 
